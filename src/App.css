@@ -1,5 +1,14 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #131313;
+}
+
+.container {
+  text-align: left;
+  min-width: 300px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
 }
 
 .App-logo {
@@ -35,4 +44,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.contents {
+  background-color: #131313;
+  min-height: 400vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 30px;
+  color: #FAEB78;
+}
+
+.text{
+  color: white;
+}
+
+.small-text{
+  color: white;
+  font-size: medium;
+}
+
+.sub-title {
+  color: #FAEB78;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.tag{
+  background-color: #575757;
+  padding: 2px;
+  border-radius: 3px;
+  font-size: medium;
+  color: white;
+}
+
+li {
+  list-style-type: none;
 }
