@@ -1,28 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title';
 import styled from 'styled-components';
 import SimpleImageSlider from 'react-simple-image-slider';
 
 const images = [
-  {url: "screenshot8.png"},
-  {url: "screenshot9.png"},
-  {url: "screenshot10.png"},
-  {url: "screenshot1.png"},
-  {url: "screenshot2.png"},
-  {url: "screenshot3.png"},
-  {url: "screenshot4.png"},
-  {url: "screenshot5.png"},
-  {url: "screenshot6.png"},
-  {url: "screenshot7.png"},
+  {url: "./screenshot8.png"},
+  {url: "./screenshot9.png"},
+  {url: "./screenshot10.png"},
+  {url: "./screenshot1.png"},
+  {url: "./screenshot2.png"},
+  {url: "./screenshot3.png"},
+  {url: "./screenshot4.png"},
+  {url: "./screenshot5.png"},
+  {url: "./screenshot6.png"},
+  {url: "./screenshot7.png"},
 ]
 
 const images2 = [
-  {url: "sta1.png"},
-  {url: "sta2.png"},
-  {url: "sta3.png"},
-  {url: "sta4.png"},
-  {url: "sta5.png"},
+  {url: "./sta1.png"},
+  {url: "./sta2.png"},
+  {url: "./sta3.png"},
+  {url: "./sta4.png"},
+  {url: "./sta5.png"},
 ]
 
 const Slider = ({images}) => {
