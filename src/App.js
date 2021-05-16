@@ -192,6 +192,10 @@ function App() {
                   <span className="sub-title">기여</span>
                   <span className="small-text"> 인증 폼과 더불어 수업검색, 등록, 삭제 및 시간표 생성 및 변경, 푸시알림 설정과 ICS 스케쥴 연동기능 구현.</span>
                 </li>
+                <li>
+                  <span className="sub-title">느낀점</span>
+                  <span className="small-text"> 첫 자바스크립트 프로젝트라 정신없이 진행되었지만, 개발의 즐거움을 느끼게 된 시간이었습니다. 새로운 기술과 지식을 두려워하지 않는 태도가 중요했던 것 같습니다.</span>
+                </li>
               </ul>
             </div>
             <div style={{flex:1, justifyContent:"center", alignItems:"center", borderWidth:"1px"}}>
