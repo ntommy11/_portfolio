@@ -65,8 +65,8 @@ function App() {
       <div className="container">
         <div className="contents">
           <header>
-            <h1>KAKAO 2021 internship</h1>
-            <span className="text">Client/FE 지원 포트폴리오</span>
+            <h2>반갑습니다! 신입 개발자 남세현을 소개합니다.</h2>
+            <span className="text">Front-End 파트 지원 포트폴리오</span>
           </header>
           <div style={{
             display: "flex",
